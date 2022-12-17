@@ -15,7 +15,7 @@ app.use(express.json())
 //   res.send('Hello Amey!')
 // })
 app.get('/',(req,res)=>{
-  res.send.json("Hiii")
+  res.send("Hiii")
 })
 
 // Available routes
